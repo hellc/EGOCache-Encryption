@@ -8,18 +8,18 @@ It has native support for `NSString`, `UIImage`, `NSImage`, and `NSData`, but ca
 ### Carthage
 
 ```
-github "enormego/EGOCache" ~> 2.2.0
+github "hellc/EGOCache-Encryption" ~> 2.3.0
 ```
 
 ### CocoaPods
 
 ```
-pod 'EGOCache', '~> 2.2.0'
+pod 'EGOCacheEncryption', '~> 2.3.0'
 ```
 
 ### Without a dependency manager
 
-Drag EGOCache.h and EGOCache.m into your project.
+Drag EGOCache.h, EGOCache.m, NSData+AES.h, NSData+AES.m into your project.
 
 ## License
 Copyright (c) 2017 enormego
