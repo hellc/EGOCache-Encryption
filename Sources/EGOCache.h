@@ -93,4 +93,6 @@ FOUNDATION_EXPORT const unsigned char EGOCacheVersionString[];
 - (void)setObject:(nonnull id<NSCoding>)anObject forKey:(NSString* __nonnull)key withTimeoutInterval:(NSTimeInterval)timeoutInterval;
 
 @property(nonatomic) NSTimeInterval defaultTimeoutInterval; // Default is 1 day
+@property (nonatomic, strong) NSString * _Nullable secretKey; // Default is nil
+
 @end

@@ -15,6 +15,8 @@
 		28AE5DE61F92B5FC00C1BA82 /* EGOCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 28AE5DD71F92B1C600C1BA82 /* EGOCache.m */; };
 		28AE5DE71F92B5FC00C1BA82 /* EGOCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 28AE5DD71F92B1C600C1BA82 /* EGOCache.m */; };
 		28AE5DE81F92B5FD00C1BA82 /* EGOCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 28AE5DD71F92B1C600C1BA82 /* EGOCache.m */; };
+		CADAF76F22BBDFEE00A72300 /* NSData+AES.h in Headers */ = {isa = PBXBuildFile; fileRef = CADAF76D22BBDFEE00A72300 /* NSData+AES.h */; };
+		CADAF77022BBDFEE00A72300 /* NSData+AES.m in Sources */ = {isa = PBXBuildFile; fileRef = CADAF76E22BBDFEE00A72300 /* NSData+AES.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,6 +27,8 @@
 		28AE5DD71F92B1C600C1BA82 /* EGOCache.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EGOCache.m; sourceTree = "<group>"; };
 		28AE5DD81F92B1C600C1BA82 /* EGOCache.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EGOCache.h; sourceTree = "<group>"; };
 		28AE5DDA1F92B1CD00C1BA82 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CADAF76D22BBDFEE00A72300 /* NSData+AES.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSData+AES.h"; sourceTree = "<group>"; };
+		CADAF76E22BBDFEE00A72300 /* NSData+AES.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSData+AES.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,6 +88,8 @@
 			children = (
 				28AE5DD81F92B1C600C1BA82 /* EGOCache.h */,
 				28AE5DD71F92B1C600C1BA82 /* EGOCache.m */,
+				CADAF76D22BBDFEE00A72300 /* NSData+AES.h */,
+				CADAF76E22BBDFEE00A72300 /* NSData+AES.m */,
 			);
 			path = Sources;
 			sourceTree = "<group>";
@@ -104,6 +110,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				28AE5DDB1F92B21F00C1BA82 /* EGOCache.h in Headers */,
+				CADAF76F22BBDFEE00A72300 /* NSData+AES.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -212,7 +219,7 @@
 		28AE5D641F92AEA000C1BA82 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0900;
+				LastUpgradeCheck = 1020;
 				ORGANIZATIONNAME = Enormego;
 				TargetAttributes = {
 					28AE5DA01F92B07400C1BA82 = {
@@ -239,6 +246,7 @@
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
+				Base,
 			);
 			mainGroup = 28AE5D631F92AEA000C1BA82;
 			productRefGroup = 28AE5D6E1F92AEA000C1BA82 /* Products */;
@@ -289,6 +297,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CADAF77022BBDFEE00A72300 /* NSData+AES.m in Sources */,
 				28AE5DE81F92B5FD00C1BA82 /* EGOCache.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -334,6 +343,7 @@
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
@@ -341,6 +351,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
@@ -392,6 +403,7 @@
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
@@ -399,6 +411,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
