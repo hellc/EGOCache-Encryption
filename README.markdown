@@ -1,7 +1,7 @@
 # EGOCache
-EGOCache is a simple, thread-safe key value cache store for macOS, iOS, tvOS and watchOS.
+EGOCache is a simple, thread-safe key value cache store for macOS, iOS, tvOS and watchOS with encryption mechanism.
 
-It has native support for `NSString`, `UIImage`, `NSImage`, and `NSData`, but can store anything that implements `<NSCoding>`.  All cached items expire after the timeout, which by default, is one day.
+It has native support for `NSString`, `UIImage`, `NSImage`, and `NSData`, but can securely store anything that implements `<NSCoding>`.  All cached items expire after the timeout, which by default, is one day.
 
 ## Installation
 
@@ -20,6 +20,13 @@ pod 'EGOCacheEncryption', '~> 2.3.0'
 ### Without a dependency manager
 
 Drag EGOCache.h, EGOCache.m, NSData+AES.h, NSData+AES.m into your project.
+
+### Usage
+
+Set secret key before usage
+```
+EGOCache.globalCache.secretKey = @"SuPeRsEcReTkEy";
+```
 
 ## License
 Copyright (c) 2017 enormego
